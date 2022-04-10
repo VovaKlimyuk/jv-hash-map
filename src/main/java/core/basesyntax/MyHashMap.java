@@ -9,7 +9,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
     private Node<K, V>[] data;
     private int size;
 
-    private MyHashMap() {
+    public MyHashMap() {
         data = new Node[BEGIN_LENGTH];
     }
 
